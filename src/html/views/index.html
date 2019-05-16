@@ -1,1 +1,18 @@
-<% var data = {}; %>
+<% var data = {
+  title: "Task manager",
+  copyright: "\xA9 Lorem ipsum"
+}; %>
+
+<%= _.template(require('./../includes/header.html'))(data) %>
+
+<main>
+
+<!-- <%= _.template(require('./../includes/list.html'))(data)%>
+
+<%= _.template(require('./../includes/button.html'))(data)%> -->
+
+<%= _.template(require('./../includes/signin.html'))(data)%>
+
+</main>
+
+<!-- <%= _.template(require('./../includes/footer.html'))(data) %> -->
