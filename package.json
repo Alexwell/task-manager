@@ -1,7 +1,7 @@
 {
   "name": "task-manager",
   "version": "0.0.1",
-  "description": "Test task for Ruby Garage",
+  "description": "Test task",
   "main": "src/js/index.js",
   "scripts": {
     "dev": "webpack --mode development",
@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "bootstrap": "^4.3.1",
-    "jquery": "^3.3.1",
+    "jquery": "^3.4.1",
     "popper.js": "^1.14.7"
   },
   "devDependencies": {
