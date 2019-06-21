@@ -1,0 +1,11 @@
+<% var data = {
+  title: "Task manager",
+  copyright: "\xA9 Lorem ipsum",
+  jinjaLeft: "{{ url_for('static', filename='",
+  jinjaRight: "') }}"
+}; %>
+
+<%= _.template(require('./../includes/top.html'))(data) %>
+{% block content %}
+{% endblock %}
+<%= _.template(require('./../includes/bottom.html'))(data) %>
